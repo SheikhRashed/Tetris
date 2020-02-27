@@ -3,8 +3,9 @@
     <title>Tetris Game JS</title>
     <style>
         body{
-            background: url(https://images.pexels.com/photos/3609832/pexels-photo-3609832.jpeg?cs=srgb&dl=blue-and-green-color-abstract-painting-3609832.jpg&fm=jpg);
+            background: url(https://images.pexels.com/photos/1033729/pexels-photo-1033729.jpeg?cs=srgb&dl=photography-of-dirt-road-surrounded-by-trees-1033729.jpg&fm=jpg) center center/cover no-repeat;
             position: relative;
+            font-family: sans-serif;
         }
         #score{
             display: inline-block;
@@ -21,10 +22,15 @@
             top: 20%;
             left: 45%;
         }
+
+        .you {
+            color: #FFC159;
+        }
     </style>
+    <link href="https://fonts.googleapis.com/css?family=Suez+One&display=swap" rel="stylesheet">
 </head>
 <body>
-   <div>Sorry Smrity</div><br>
+   <div>Sorry <span class="you">Smrity</span> </div><br>
     <canvas id="tetris" width="200" height="400"></canvas>
     <div>
         Score : <div id="score">0</div>
